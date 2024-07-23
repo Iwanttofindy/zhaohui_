@@ -35,8 +35,8 @@ def page_1():
                 st.image("nwd.png")
             with b:
                 st.write("https://bilibili.com/video/BV1rZ4y1M7CZ?spm_id_from=333.999.0.0")
+            st.header("悲伤鼠鼠唱出生的小曲？")
             st.image("悲伤鼠鼠.png")
-            st.header(" ")
             st.audio("悲伤鼠鼠.mp3")
             st.header(" ")
         with tab4:
@@ -61,7 +61,7 @@ def page_1():
                 st.audio("鸡哥天下第一.mp3")
             
     with tab5:
-        st.title("米家全家桶，仅需300GB！！！超实惠的有没有！！！")
+        st.title("米哈游全套游戏，仅需300GB！！！超实惠的有没有！！！")
         A,B,C = st.columns([1,1,1])
         with A:
             st.image("崩坏3 .png")
@@ -74,9 +74,9 @@ def page_1():
 
 def page_2():
     st.title("下面是一些我推荐的电脑，有电脑需求的考虑一下=）")
-    tab1, tab2 = st.tabs(["联想", "华硕"])
+    tab1, tab2 = st.tabs(["Lenovo", "ASUS"])
     with tab1:
-        st.header("联想：")
+        st.header("Lenovo：")
         tab5, tab6 = st.tabs(["ThinkPad", "ThinkBook"])
         with tab5:
             st.write("    thinkpad t14p:https://www.thinkpad.com/device/ThinkPad-T14p-2023")
