@@ -59,6 +59,8 @@ def page_1():
             with f:
                 st.image("jntm-3.png")
                 st.audio("鸡哥天下第一.mp3")
+
+            st.write("神秘网站：https://www.bilibili.com/video/BV1GJ411x7h7/?spm_id_from=333.337.search-card.all.click&vd_source=504f4fdf95605216335d54ddaa2ac98a")
             
     with tab5:
         st.title("米哈游全套游戏，仅需300GB！！！超实惠的有没有！！！")
