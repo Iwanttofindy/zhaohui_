@@ -7,6 +7,8 @@ page = st.sidebar.radio("HOME PAGE", ['HOBBIES', "COMPUTER", "TOOLBOX", "BOARD"]
 def page_1():
     tab1, tab2, tab5 = st.tabs(["BOOK", "JNTM", "GAME"])
     with tab1:
+        st.title("恭喜你发现了宝藏！")
+        st.write("这是我做的一个小网站，注意，此网站只供娱乐，请遵守法律法规，以此享受你的冲浪之旅！😉😘😊")
         st.header(":blue[三体三部曲，你值得拥有]")
         a, b = st.columns([1,1])
         with a:
